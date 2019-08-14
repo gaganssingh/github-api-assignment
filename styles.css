@@ -6,3 +6,15 @@ body {
 div {
     margin: 10px auto;
 }
+
+.hidden {
+    display: none;
+}
+
+li {
+    list-style: decimal;
+}
+
+.unbold {
+    font-weight: normal;
+}

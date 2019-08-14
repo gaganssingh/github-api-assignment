@@ -15,14 +15,19 @@
         <p>Type in the github handle to display repos:</p>
 
         <form id="js-form">
-            <label for="user">User Name:</label>
+            <label for="user">Github Handle:</label>
             <input type="text" name="user" id="js-user">
             <input type="submit" value="Search User">
         </form>
-        <p id="js-error-message" class="error-message"></p>
-        <section id="results" class="hidden">
-            <h2>Repo List:</h2>
-            <ul id="results-list"></ul>
+        <p id="js-error-message" class="error-message hidden">There was an error. Please try a different username.</p>
+        <section id="js-github-handle" class="hidden">
+                
+        </section>
+        <h2 id="js-repo-heading" class="hidden">Repo List:</h2>
+        <section class="hidden">
+            <ul id="results-list">
+
+            </ul>
         </section>
     </div>
     <script src="app.js"></script>
