@@ -1,0 +1,8 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+div {
+    margin: 10px auto;
+}
